@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,67 +10,215 @@
   <link rel="stylesheet" href="css/styles.css">
   <title>joegotflow83</title>
 </head>
+
 <body>
-  <section class="container-flow">
+  <section class="container-fluid">
     <nav class="navbar navbar-dark bg-dark">
-    <form class="form-inline my-2">
-      <i class="fab fa-github"></i>
-      <input class="form-control mr-sm-4" type="search" placeholder="Search or jump to..." aria-label="Search">
+      <form class="form-inline my-2">
+        <i class="fab fa-github"></i>
+        <input class="form-control mr-sm-4" id="barlength" type="search" placeholder="Search or jump to..." aria-label="Search">
+        <div class="navbar-expand-lg" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pull request</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Issues</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </form>
 
-    <div class="navbar-expand-lg" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pull request</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Issues</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Marketplace</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Explore</a>
-      </li>
-    </ul>
-  </div>
-  </form>
-  <span class="navbar-text"><a href="#"><i class="fas fa-bell"></i></a></span>
+      <form action="" class=" my-2">
 
-<form action="" class=" my-2">
-  <ul class="ididit flex-row navbar-nav">
+        <ul class="ididit flex-row navbar-nav">
+          <span class="navbar-text"><a href="#"><i class="fas fa-bell"></i></a></span>
 
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fas fa-plus"></i>
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-    </div>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <img class="userimage" src="https://avatars0.githubusercontent.com/u/49172276?s=40&v=4" alt="" class="myface">
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-    </div>
-  </li>
-  </ul>
-  </form>
-  </nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-plus"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="userimage" src="https://avatars0.githubusercontent.com/u/49172276?s=40&v=4" alt="" class="myface">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </form>
+    </nav>
   </section>
-<!-- *******************************Profile Below -->
-  <section class="profile">
-    <div><img class="image-profile"src="https://avatars0.githubusercontent.com/u/10839443?s=460&v=4" alt="..."></div>
-    <h1 class="name">Joseph Morgan</h1>
-    <h3 class="user">joegotflow83</h3>
-    <button type="button" name="button">Follow</button>
-    <h6 class="report">Block or Report User</h6>
+  <!-- *******************************Profile Below -->
+  <section class="container">
+    <div class="row">
+      <section class="profile col-3">
+        <div><img class="image-profile" src="https://avatars0.githubusercontent.com/u/10839443?s=460&v=4" alt="..."></div>
+        <h1 class="name">Taylor Whitfield</h1>
+        <h3 class="user">Whitty64</h3>
+        <button type="button" name="button">Follow</button>
+        <h6 class="report">Block or Report User</h6>
+      </section>
+      <!-- ************************************Repo Navbar -->
+      <div class="col-9">
+        <div class="sticky-top">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Repositiory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Stars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Followers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Following</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <!-- **************************Search bar and buttons below -->
+        <div class="row justify-content-center">
+          <input class="form-control col-6" type="search" placeholder="Find a repositiory..." aria-label="Search">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Type:<span>All</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">All</a>
+              <a class="dropdown-item" href="#">Sources</a>
+              <a class="dropdown-item" href="#">Forks</a>
+              <a class="dropdown-item" href="#">Archived</a>
+              <a class="dropdown-item" href="#">Mirrors</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Language:<span>All</span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">All</a>
+              <a class="dropdown-item" href="#">Vim script</a>
+              <a class="dropdown-item" href="#">Python</a>
+              <a class="dropdown-item" href="#">JavaScript</a>
+              <a class="dropdown-item" href="#">Elixir</a>
+              <a class="dropdown-item" href="#">HTML</a>
+            </div>
+          </div>
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+
+        <!-- ************************************Repo Below -->
+        <main class="repo">
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+          <section class="entry col-8">
+            <h3><a href="#">meaning_of_life</a></h3>
+            <span>Forked from </span><a href="#">ourcreatorhimself</a>
+            <p>Install for all the answers</p>
+            <div>byte-me <a href="#"><i class="fas fa-code-branch"></i>21</a> Updated on May 10</div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="checkbox" checked autocomplete="off"> Star
+              </label>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <button type="button" class="btn btn-sm btn-primary" disabled>Previous</button>
+  <button type="button" class="btn btn-primary btn-sm">Next</button>
   </section>
+
+
 
 
 
@@ -78,4 +227,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>

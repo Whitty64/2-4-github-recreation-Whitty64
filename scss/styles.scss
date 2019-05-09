@@ -4,6 +4,9 @@
 img {
   width: 100%;
 }
+body {
+  height: 1200px;
+}
 
 .userimage {
   width: 20px;
@@ -11,4 +14,13 @@ img {
 
 .image-profile {
   width: 200px;
+}
+#barlength {
+  width:350px;
+  height: 30px;
+}
+.entry {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px grey;
 }
