@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.userimage {
+  width: 20px;
+}
+
+.image-profile {
+  width: 200px;
+}
+
+/*# sourceMappingURL=styles.css.map */
