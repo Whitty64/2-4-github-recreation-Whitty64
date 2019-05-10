@@ -4,8 +4,8 @@
 img {
   width: 100%;
 }
-body {
-  height: 1200px;
+.nogut {
+  padding: 0;
 }
 .fa-github{
   font-size: 35px;
@@ -16,7 +16,13 @@ body {
   width: 20px;
 }
 .image-profile {
-  width:250px;
+  width:260px;
+}
+.moveright {
+  padding-left: 50px;
+}
+.followbtn {
+  width:260px;
 }
 .dropdown-toggle::after{
   margin:0;
@@ -31,25 +37,27 @@ body {
   min-height:25px;
   height: 25px;
 }
+
 .sticknav {
   border-bottom: 1px #cacaca solid;
   width:756px;
   margin-bottom: 15px;
+  background-color: white;
   a{
     padding-bottom: 12px;
     margin-right: 20px;
+    border-bottom: 2px transparent solid;
   }
   a:hover {
-    border-bottom: 2px #cacaca solid;
-
+    border-bottom-color: #cacaca;
   }
 }
 .newbtn {
   margin-left: 35px;
 }
 .entry {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: solid 1px grey;
   position: relative;
 }
@@ -70,4 +78,18 @@ p {
   position: absolute;
   top: 40px;
   right: 0;
+}
+footer {
+margin-top:50px;
+}
+
+.barfoot {
+  li {
+    display: inline-block;
+    padding:8px;
+  }
+}
+.bottomcat {
+  margin-left: 30px;
+  margin-right: 30px;
 }
