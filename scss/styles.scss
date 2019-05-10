@@ -7,20 +7,67 @@ img {
 body {
   height: 1200px;
 }
-
+.fa-github{
+  font-size: 35px;
+  color: #fff;
+  padding-right: 15px;
+}
 .userimage {
   width: 20px;
 }
-
 .image-profile {
-  width: 200px;
+  width:250px;
+}
+.dropdown-toggle::after{
+  margin:0;
 }
 #barlength {
-  width:350px;
-  height: 30px;
+  width: 300px;
+  min-height:12px;
+  height: 12px;
+}
+#barlengthtwo {
+  margin-left: 14px;
+  min-height:25px;
+  height: 25px;
+}
+.sticknav {
+  border-bottom: 1px #cacaca solid;
+  width:756px;
+  margin-bottom: 15px;
+  a{
+    padding-bottom: 12px;
+    margin-right: 20px;
+  }
+  a:hover {
+    border-bottom: 2px #cacaca solid;
+
+  }
+}
+.newbtn {
+  margin-left: 35px;
 }
 .entry {
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: solid 1px grey;
+  position: relative;
+}
+.forked {
+  span {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+    }
+}
+
+p {
+  font-size: 14px;
+}
+
+.starbtn {
+  position: absolute;
+  top: 40px;
+  right: 0;
 }
