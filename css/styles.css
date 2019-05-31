@@ -46,6 +46,10 @@ button.followbtn {
   border-color: #cacaca;
 }
 
+.orgpic {
+  width: 50px;
+}
+
 .dropdown-toggle::after {
   margin: 0;
 }
