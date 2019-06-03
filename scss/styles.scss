@@ -28,15 +28,21 @@ img {
 .image-profile {
   width:260px;
 }
-.moveright {
-  padding-left: 50px;
-}
+
 button.followbtn {
   width:260px;
   border-color: #cacaca;
 }
+.org-insert {
+  margin-left: 0px;
+}
+.org-title {
+  border-top: solid 1px #cacaca;
+  padding-top: 20px;
+  width:260px;
+}
 .orgpic{
-  width:50px;
+  width:40px;
 }
 .dropdown-toggle::after{
   margin:0;
@@ -72,7 +78,8 @@ button.followbtn {
 
 }
 .newbtn {
-  margin-left: 35px;
+  margin-left: 5px;
+  width: 75px;
 }
 .entry {
   padding-top: 25px;
@@ -147,7 +154,4 @@ margin-top:50px;
 }
 #panel{
   display: none;
-}
-.over {
-
 }
