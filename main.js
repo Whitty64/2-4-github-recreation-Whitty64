@@ -5,6 +5,14 @@ $( document ).ready(function() {
   const CLIENT_ID='2a25ea82630f503f4aa5';
   const SECRET='8151dec29b9f63af6677eefc31eb66cc9d15093c';
 
+$(document).ready(function () {
+    //Convert address tags to google map links - Copyright Michael Jasper 2011
+    $('address').each(function () {
+        var link = "<a href='http://maps.google.com/maps?q=" + encodeURIComponent( $(this).text() ) + "' target='_blank'>" + $(this).text() + "</a>";
+        $(this).html(link);
+    });
+});
+
   function searchRepo() {
   // Declare variables
   var input, filter, repo , section , a, i, txtValue;
